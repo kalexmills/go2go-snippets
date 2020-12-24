@@ -57,7 +57,7 @@ Combine two channels into a single channel.
 #### Parallel Do
 Call a list of functions in parallel, returning a slice of results.
   
-* retrieve response code from parallel HTTP requests ([go2go](https://go2goplay.golang.org/p/C4FrFPVG6g6))
+* retrieve response code from parallel HTTP requests ([go2go](https://go2goplay.golang.org/p/aXjp9q54d_5))
 
 #### Parallel `oneOf` 
 Call a list of functions using a Context, return the result of the first function to finish, while canceling and cleaning up extra goroutines.
