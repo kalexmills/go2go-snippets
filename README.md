@@ -21,7 +21,7 @@ If you see an implementation in this list that you have questions about or want 
     * *TODO*
  * **Reverse**: reverse an ordered collection
     * example from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/birTLemLU3l), [source](https://blog.golang.org/why-generics))
- * **Union/Intersection**: compute basic set theory
+ * **Union/Intersection**: perform basic set theory
     * using 'sets' -- maps with empty structs for values ([go2go](https://go2goplay.golang.org/p/8D4zmkrUkkK))
  * **Shortest Path**: find shortest path in a graph
     * *TODO*
