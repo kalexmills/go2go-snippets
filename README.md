@@ -1,12 +1,12 @@
 # Go2Go Snippets
 
-To better understand the impact of the Go generics proposal, this repository collects a list of solutions to problems that could benefit from generics and links to implementations that run on the [go2go Playground](https://go2goplay.golang.org/p/rC4sofqXuA5). Multiple implementations for the same problem are highly encouraged. Having a variety of solutions to look at and compare will help the community learn about idioms that may be useful.
+To better understand the impact of the Go generics proposal, this repository collects a list of solutions to problems that could benefit from generics and links to implementations that run on the [go2go Playground](https://go2goplay.golang.org). Multiple implementations for the same problem are highly encouraged. Having a variety of solutions to look at and compare will help the community learn about idioms that may be useful.
 
 If you are copying from an online source, please make sure 1) you are able to do so and 2) include a link back to the original material.
 
-Pull requests are welcome, both for examples of the problems shown here and for new ones! Just include a `main` method to demonstrate correct usage. Maintainers reserve the right to run format on your go2go example and change the link, but we will preserve your original commit in the history.
+Pull requests are welcome, both for solutions to the problems below and solutions of new problems! Just modify this file to a link to a go2go example that includes a `main` method demonstrating correct usage. Maintainers may run format on your submission and modify the link before merging, but we *will* preserve your original commit in the history.
 
-If you see an implementation in this list that you have questions about or want to discuss, start a conversation in the issue tracker.
+If you see an implementation in this list that you have questions about or want to discuss, start a conversation in the issue tracker. Please follow the [Go Community Code of Conduct](https://golang.org/conduct).
 
 ### Data structures
 
@@ -51,6 +51,8 @@ Read from a channel with a timeout.
 
 #### Join channels
 Combine two channels into a single channel.
+
+* async example ([go2go](https://go2goplay.golang.org/p/BdAT9Htwr0_K))
 
 #### Parallel `map`
 Call a list of functions in parallel, returning a slice of results.
