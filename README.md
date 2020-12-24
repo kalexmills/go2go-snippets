@@ -10,54 +10,31 @@ If you see an implementation in this list that you have questions about or want 
 
 ### Data structures
 
-#### Queue
-FIFO access to a list.
-
-* enqueue and dequeue (standard example) ([go2go](https://go2goplay.golang.org/p/WU9wGGNraGB))
-
-#### Graph
-Data structure consisting of nodes and edges.
+ * **Queue**: FIFO access to a list
+    * enqueue and dequeue (standard example) ([go2go](https://go2goplay.golang.org/p/WU9wGGNraGB))
 
 ### Algorithms
 
-#### Min / Max
-Find smallest/largest element in slice.
+ * **Min/Max**: find smallest/largest element in a collection
+    * using a numeric interface ([go2go](https://go2goplay.golang.org/p/-SpQWxkaubc))
+ * **Average/Standard Deviation**: compute statistical moments of a collection
+    * *TODO*
+ * **Reverse**: reverse an ordered collection
+    * example from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/birTLemLU3l), [source](https://blog.golang.org/why-generics))
+ * **Union/Intersection**: compute basic set theory
+    * using 'sets' -- maps with empty structs for values ([go2go](https://go2goplay.golang.org/p/8D4zmkrUkkK))
+ * **Shortest Path**: find shortest path in a graph
+    * *TODO*
+* **Transform Collections**: apply a function to each element of a collection and return the resulting collection.
+   * mapping over slices ([go2go](https://go2goplay.golang.org/p/5fxKKfXYCMK))
+   
+### Concurrency
 
-* using a numeric interface ([go2go](https://go2goplay.golang.org/p/-SpQWxkaubc))
-
-#### Average / Standard Deviation
-Find average/standard deviation of slice.
-
-#### Reverse
-Reverse a list
-
-* example from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/birTLemLU3l), [source](https://blog.golang.org/why-generics))
-
-#### Union / Intersection
-Compute union/intersection of maps.
-
-* using 'sets' -- maps with empty structs for values ([go2go](https://go2goplay.golang.org/p/8D4zmkrUkkK))
-
-#### Shortest Path
-Find shortest path in node/edge graphs.
-
-#### `map` over Collections
-Apply an arbitrary transformation function to slice/map, returning new slice/map.
-
-* mapping over slices ([go2go](https://go2goplay.golang.org/p/5fxKKfXYCMK))
-
-#### Channel timeout
-Read from a channel with a timeout.
-
-#### Join channels
-Combine two channels into a single channel.
-
-* async example ([go2go](https://go2goplay.golang.org/p/BdAT9Htwr0_K))
-
-#### Parallel Do
-Call a list of functions in parallel, returning a slice of results.
-  
-* retrieve response code from parallel HTTP requests ([go2go](https://go2goplay.golang.org/p/aXjp9q54d_5))
-
-#### Parallel `oneOf` 
-Call a list of functions using a Context, return the result of the first function to finish, while canceling and cleaning up extra goroutines.
+ * **Channel Timeout**: read from a channel with a timeout
+   * *TODO*
+ * **Channel Join**: combine two channels into one
+    * async implementation ([go2go](https://go2goplay.golang.org/p/BdAT9Htwr0_K))
+ * **Parallel `allOf`**: call a list of functions in parallel, returning a slice of results
+    * retrieve response code from parallel HTTP requests ([go2go](https://go2goplay.golang.org/p/aXjp9q54d_5))
+ * **Parallel `oneOf`**: call a list of functions in parallel, return the fisrt function to finish, cancelling the remainder and not leaking any goroutines.
+    * *TODO*
