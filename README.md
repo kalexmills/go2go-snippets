@@ -17,24 +17,24 @@ If you see an implementation in this list that you have questions about or want 
 
  * **Min/Max**: find smallest/largest element in a collection
     * using a numeric interface ([go2go](https://go2goplay.golang.org/p/-SpQWxkaubc))
- * **Average/Standard Deviation**: compute statistical moments of a collection
-    * *TODO*
  * **Reverse**: reverse an ordered collection
     * example from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/birTLemLU3l), [source](https://blog.golang.org/why-generics))
  * **Union/Intersection**: perform basic set theory
     * using 'sets' -- maps with empty structs for values ([go2go](https://go2goplay.golang.org/p/8D4zmkrUkkK))
- * **Shortest Path**: find shortest path in a graph
-    * *TODO*
 * **Transform Collections**: apply a function to each element of a collection and return the resulting collection.
    * mapping over slices ([go2go](https://go2goplay.golang.org/p/5fxKKfXYCMK))
+ * **Average/Standard Deviation**: compute statistical moments of a collection
+    * *TODO*
+ * **Shortest Path**: find shortest path in a graph
+    * *TODO*
    
 ### Concurrency
 
- * **Channel Timeout**: read from a channel with a timeout
-   * *TODO*
  * **Channel Join**: combine two channels into one
     * async implementation ([go2go](https://go2goplay.golang.org/p/BdAT9Htwr0_K))
  * **Parallel `allOf`**: call a list of functions in parallel, returning a slice of results
     * retrieve response code from parallel HTTP requests ([go2go](https://go2goplay.golang.org/p/aXjp9q54d_5))
  * **Parallel `oneOf`**: call a list of functions in parallel, return the fisrt function to finish, cancelling the remainder and not leaking any goroutines.
     * *TODO*
+ * **Channel Timeout**: read from a channel with a timeout
+   * *TODO*
