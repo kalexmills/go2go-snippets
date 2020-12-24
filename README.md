@@ -54,8 +54,10 @@ Combine two channels into a single channel.
 
 * async example ([go2go](https://go2goplay.golang.org/p/BdAT9Htwr0_K))
 
-#### Parallel `map`
+#### Parallel Do
 Call a list of functions in parallel, returning a slice of results.
+  
+* retrieve response code from parallel HTTP requests ([go2go](https://go2goplay.golang.org/p/Y__D6WFawAc))
 
 #### Parallel `oneOf` 
 Call a list of functions using a Context, return the result of the first function to finish, while canceling and cleaning up extra goroutines.
