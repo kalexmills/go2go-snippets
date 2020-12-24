@@ -31,7 +31,7 @@ Find average/standard deviation of slice.
 #### Reverse
 Reverse a list
 
-* example from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/birTLemLU3l)) ([source](https://blog.golang.org/why-generics))
+* example from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/birTLemLU3l), [source](https://blog.golang.org/why-generics))
 
 #### Union / Intersection
 Compute union/intersection of maps.
