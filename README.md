@@ -1,1 +1,1 @@
-# go-generic-snippets
+# Go2Go Snippets
