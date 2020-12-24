@@ -22,6 +22,11 @@ Find smallest/largest element in slice.
 ### Average / Standard Deviation
 Find average/standard deviation of slice.
 
+### Reverse
+Reverse a list
+
+* from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/XbWLIle-kuz)) ([source](https://blog.golang.org/why-generics))
+
 ### Union / Intersection
 Compute union/intersection of maps.
 
