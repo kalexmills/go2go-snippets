@@ -21,7 +21,7 @@ If you see an implementation in this list that you have questions about or want 
     * example from 'Why Generics' ([go2go](https://go2goplay.golang.org/p/birTLemLU3l), [source](https://blog.golang.org/why-generics))
  * **Union/Intersection**: perform basic set theory
     * using 'sets' -- maps with empty structs for values ([go2go](https://go2goplay.golang.org/p/8D4zmkrUkkK))
-* **Transform Collections**: apply a function to each element of a collection and return the resulting collection.
+* **Transform Collections**: apply a function to each element of a collection and return the modified collection.
    * mapping over slices ([go2go](https://go2goplay.golang.org/p/5fxKKfXYCMK))
  * **Average/Standard Deviation**: compute statistical moments of a collection
     * *TODO*
