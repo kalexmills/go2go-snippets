@@ -34,7 +34,7 @@ If you see an implementation in this list that you have questions about or want 
     * async implementation ([go2go](https://go2goplay.golang.org/p/BdAT9Htwr0_K))
  * **Parallel `allOf`**: call a list of functions in parallel, returning a slice of results
     * retrieve response code from parallel HTTP requests ([go2go](https://go2goplay.golang.org/p/aXjp9q54d_5))
- * **Parallel `oneOf`**: call a list of functions in parallel, return the fisrt function to finish, cancelling the remainder and not leaking any goroutines.
+ * **Parallel `oneOf`**: call a list of functions in parallel, return the first function to finish, cancelling the remainder and not leaking any goroutines.
     * *TODO*
  * **Channel Timeout**: read from a channel with a timeout
    * *TODO*
